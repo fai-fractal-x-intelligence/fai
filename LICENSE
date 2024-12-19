@@ -1,0 +1,68 @@
+The Fork & Trust License (FTL) v1.0
+
+Effective Date: 12/18/2024
+
+1. Purpose and Intent  
+This license is intended to:  
+1.1 Encourage open, non-commercial research and study of the Licensed Material under a trust-based model.  
+1.2 Allow the Original Developer(s) to maintain clear commercial licensing paths.  
+1.3 Enable forking, modification, and "checking in" of the code in a version control system only when an appropriate add-on license is obtained, ensuring that all substantial code modifications occur under known and trusted legal terms.
+
+2. Definitions  
+2.1 "Licensed Material": The original source code, and any binary distributions derived directly therefrom.  
+2.2 "Documentation": Design documents, academic or scientific publications, and supporting materials, licensed under CC BY-NC-SA 4.0.  
+2.3 "Original Developer(s)": The individual(s) or entity(ies) that first make the Licensed Material available under this License.  
+2.4 "Non-Commercial Use": Use of the Licensed Material exclusively for personal, educational, research, or other purposes that do not result in direct or indirect financial gain.  
+2.5 "Commercial Use": Any use of the Licensed Material for monetary compensation, profit, or commercial advantage.  
+2.6 "Add-On License": A supplementary, no-cost license (for non-commercial activities) or a negotiated commercial license (for commercial activities) obtained from the Original Developer(s) that explicitly permits actions such as forking, modifying, or checking the code into a source control repository.
+
+3. Grant of Rights (Base License)  
+3.1 Non-Commercial Viewing and Study: You may, without an Add-On License:  
+   (a) Access, read, and study the Licensed Material.  
+   (b) Use it non-commercially without creating derivatives or checked-in modifications.
+
+3.2 Documentation: The Documentation is licensed under CC BY-NC-SA 4.0. You may read, share, and adapt it non-commercially with proper attribution and adherence to the CC BY-NC-SA 4.0 terms.
+
+3.3 Trust-Based Assumption:  
+   This base license is provided with the understanding that you will respect its terms. For non-commercial experiments or internal research, if you trust the Original Developer(s) to not pursue action against good-faith research activities, you may proceed. However, no right is granted hereunder to fork, modify, or "check in" the code into a version control system without the Add-On License.
+
+4. Add-On License Requirements  
+4.1 Non-Commercial Add-On License (Free):  
+   For forking, modifying, and checking the Licensed Material into a repository (public or private) for purely non-commercial purposes, you must obtain a complimentary Add-On License from the Original Developer(s). This ensures all code modifications occur under recognized terms, fostering trust and clarity. This Add-On License will be granted upon request at no cost.
+
+4.2 Commercial Add-On License (Negotiated):  
+   Any Commercial Use, including but not limited to integrating the Licensed Material into a product, offering it as a service, or otherwise deriving commercial benefit, requires a separate, negotiated Add-On License (a commercial license). Without this commercial Add-On License, no commercial activities are permitted.
+
+4.3 How to Obtain an Add-On License:  
+   To request an Add-On License (whether non-commercial or commercial), contact the Original Developer(s) at chloelunastardust@gmail.com. The Original Developer(s) commit to providing the non-commercial Add-On License under reasonable and non-discriminatory conditions, and to discuss commercial terms in good faith.
+
+5. Conditions on Distribution and Modification (Under Add-On License)  
+5.1 Attribution and Notices: When modifications are permitted under the Add-On License, all redistributed Modified Versions must:  
+   (a) Include this License (and the applicable Add-On License) and a notice of the modifications made.  
+   (b) Provide clear attribution to the Original Developer(s).
+
+5.2 No Removal of Notices: You must not remove or alter any copyright or license notices.
+
+5.3 Documentation Handling: Any included Documentation remains under CC BY-NC-SA 4.0.
+
+6. Warranty and Liability  
+6.1 AS IS: The Licensed Material is provided "as is," without warranties or conditions of any kind.  
+6.2 Limitation of Liability: To the extent permitted by law, the Original Developer(s) are not liable for any damages arising from the use or inability to use the Licensed Material.
+
+7. Termination  
+7.1 Violations: Any breach of this License or the terms of an Add-On License may lead to termination of your rights.  
+7.2 Post-Termination: Upon termination, you must cease using the Licensed Material and any Modified Versions.
+
+8. Governing Law  
+This License shall be governed by the laws of New Mexico, and disputes shall be resolved in the courts of New Mexico.
+
+9. Entire Agreement  
+This License, together with any Add-On License(s), constitutes the entire agreement and supersedes prior understandings. Modifications require written agreement by the Original Developer(s).
+
+10. Severability  
+If any provision is invalid or unenforceable, the remaining provisions remain in effect.
+
+---
+
+Non-Binding Notice of Goodwill:  
+The Original Developer(s) are committed to facilitating open research and will freely provide a non-commercial Add-On License to individuals who request it, ensuring their ability to fork, modify, and check code into a repository for non-commercial research or educational purposes. If you trust the Original Developer(s) to act in good faith, you may proceed without the Add-On License for internal research and study only. If you require certainty or expanded permissions, simply reach out for the appropriate Add-On License.*
