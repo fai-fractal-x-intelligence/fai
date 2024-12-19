@@ -1,22 +1,13 @@
 # Fai Deisign.
 
 Fai is built around the principle of fractal recursion. In contrast to traditional software engineering practices that
-favor deterministic loops and end points, fai operates non deterministically over calssical and fractal knowledge structures,
-the fidelity of the result depends on how many timecycles it has, with diminishing returns past some point.
+favor deterministic loops and end points, Fai operates non deterministically over classical and fractal knowledge structures over many timecycles. Each Fai timecycle wraps an identical oneshot call to an LLM injected with a representation of an
+externally managed state, which returns a Delta which Fai applies to the external state.
 
-At it's core, Fai is a wrapper around a recursive onedshot call to (any) LLM with the same system prompt.
-The user prompt changes each time, updated outside of the LLM call, to reflect the output of the recursive call.
-The system prompt contains instructions to read this and recursivley return modification deltas to it as output.
+![Hybriad Nural-classical Loop with External LLM Call](fai-dd-2.png)
 
-The key here is to have the LLM output a delta, a potential chat to some external system. The external system
-applys the delta to update the state. This can happen until there is decision to stop the recursive call.
+## Recursive Loop Depth
+The break case in the recursive loop can come from within the LLM by allowing and responding to a specific function call for "I'm done", or a metric in the state (or injected determinstically) related to a total resource availability for the task, or through deterministic or non-determinsitic analysis of the state through automated or human inspection. In practice some combination of these is used dependent on the circumstance.
 
-This is hybrid recursive-neural programming without a base case.
-
-It is implemented through function-calling LLMs. It is beleived that the ability of an LLM to reliably read and output
-structured data represents a critical boundary dimension for reasoning ability - being able to "think like a programmer"
-indicates a latent representation for high level abstract reasnoning, or the ability to approach turning completness
-through emergent non-deterministic systesms.
-
-# External State
-
+## Fractal Deltas vs Assignment
+The boundary between neuro-linguistic and deterministic code is chosen as a Delta. The LLM outputs a representation of the potential state change for progressing the state in someway. It is not resonsible for applying the delta or maintaining the state. This differs intentionaly from an assignemnt, or complete rewrite of the state with the previous output. This allows latent information to build up in the state over repeated iterations, within the total context token limit. It also allows for the application of neuro-lingusitic, non deterministic, fractal recursion, to produce exceptionally high quality outputs up to the total token limit.  
